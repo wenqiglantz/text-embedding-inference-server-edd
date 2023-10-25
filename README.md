@@ -1,5 +1,7 @@
 # text-embedding-inference-server-edd
 
+Check out my Medium blog post for details. [Optimizing Text Embeddings with HuggingFace’s text-embeddings-inference Server and LlamaIndex](https://levelup.gitconnected.com/optimizing-text-embeddings-with-huggingfaces-text-embeddings-inference-server-and-llamaindex-ef7df35882a4?sk=6bc1a83bebb41907413d1a66c4530a54).
+
 We take the following approach to explore the text-embeddings-inference server:
 * Install the text-embeddings-inference server on a local CPU and run evaluations to compare performance between two embedding models: inference server's bge-large-en-v1.5 versus OpenAI's text-embedding-ada-002.
 * Install the text-embeddings-inference server on an AWS GPU EC2 instance. We again run the evaluations to compare the performance between the same embedding models from the inference server and that from OpenAI.
